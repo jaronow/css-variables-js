@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+  background: #193549;
+  color: white;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.controls {
+  margin-bottom: 30px;
+}
+
+label {
+  font-size: 30px;
+}
+
+input {
+  width: 150px;
+}
+
+img {
+  width: 100%;
+}
