@@ -1,3 +1,9 @@
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
 body {
   text-align: center;
   background: #193549;
@@ -21,5 +27,8 @@ input {
 }
 
 img {
-  width: 100%;
+  width: 90%;
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
 }
