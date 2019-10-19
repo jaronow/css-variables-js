@@ -2,16 +2,21 @@
   --base: #ffc600;
   --spacing: 10px;
   --blur: 10px;
+  --background: #193549;
 }
 
 body {
   text-align: center;
-  background: #193549;
+  background: var(--background);
   color: white;
 }
 
 h1 {
   font-size: 40px;
+}
+
+.highlight {
+  color: var(--base);
 }
 
 .controls {
